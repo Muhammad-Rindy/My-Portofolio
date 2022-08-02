@@ -1,0 +1,48 @@
+@media (max-width: 1399.98px) {
+  .h2-about {
+    padding: 0px;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .li {
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  .ul {
+    font-size: 25px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+  .isi {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 3px;
+  }
+  .main-info {
+    padding-top: 300px;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .main-typed {
+    font-size: 25px;
+  }
+}

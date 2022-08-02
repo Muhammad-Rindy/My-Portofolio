@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*========== Navbar ==========*/
+
+.size-nav {
+  height: 126px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.item {
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerimg {
+  height: 500px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  padding-top: -500px;
+  object-fit: cover;
+}
+
+.main-info {
+  padding-top: 300px;
+  letter-spacing: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.main-info-h1 {
+  letter-spacing: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.typed-text {
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: blue;
+  font-size: 12px;
+}
+
+/*========== Footer ==========*/
+
+.icon {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.isi {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+
+.body-footer {
+  background-color: whitesmoke;
+}
+
+.footer-line {
+  background-color: #203239;
+}
+
+/*========== Header ==========*/
+
+.li {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.ul {
+  font-size: 30px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.form {
+  padding: 5px;
+}
+
+.h2-about {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 100px;
+  padding-top: 30px;
 }
